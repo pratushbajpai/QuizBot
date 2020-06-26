@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "groupLocation": {
+            "value": "WestUS2"
+        },
+        "groupName": {
+            "value": "quizbotapi-rg"
+        },
+        "appId": {
+            "value": "94ad2bff-50f3-4d94-a8ae-a6c1e75af53c"
+        },
+        "appSecret": {
+        "value": "newuser@123"
+        },
+        "botId": {
+            "value": "QuizBotAPI"
+        },
+        "botSku": {
+            "value": "F0"
+        },
+        "newAppServicePlanName": {
+            "value": "Quiz Bot API Plan"
+        },
+        "newAppServicePlanSku": {
+            "value": {
+                "name": "S1",
+                "tier": "Standard",
+                "size": "S1",
+                "family": "S",
+                "capacity": 1
+            }
+        },
+        "newAppServicePlanLocation": {
+            "value": "WestUS2"
+        },
+        "newWebAppName": {
+            "value": "QuizBotAPI"
+        }
+    }
+}
